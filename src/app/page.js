@@ -1,7 +1,9 @@
+import Header from "./components/Header";
+
 export default function Home() {
   return (
-    <>
-      <h1>Assalamu Alaikum IRD</h1>
-    </>
+    <div className="max-w-[1920px] mx-auto">
+      <Header />
+    </div>
   );
 }
