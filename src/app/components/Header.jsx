@@ -1,15 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
 import { BsNintendoSwitch, BsSearch, BsSunFill } from "react-icons/bs";
 import { HiMenu } from "react-icons/hi";
 
 const Header = () => {
   return (
     // header start
-    <header className="py-2.5 md:py-3 px-4 md:px-6">
-      <div className="container mx-auto bg-white">
+    <header className="py-2.5 bg-white md:py-3 px-4 md:px-6">
+      <div className="max-2xl:container mx-auto">
         <div className="flex justify-between items-center">
           {/* header left start */}
-          <div className="w-16 md:w-[70px] h-8 md:h-9">
+          <Link href="/" className="w-16 md:w-[70px] h-8 md:h-9">
             <Image
               className="w-full"
               width={70}
@@ -17,7 +18,7 @@ const Header = () => {
               src="/assets/images/logo/header-logo.png"
               alt="logo"
             />
-          </div>
+          </Link>
           {/* header left end */}
           {/* header middle start */}
           <div className="w-[390px] hidden md:block">
@@ -27,26 +28,26 @@ const Header = () => {
                 type="text"
                 placeholder="Search Best Food"
               />
-              <div className="bg-[#FCEEE9] border border-[#FADFD6] rounded-md ring-1 ring-[#FCEEE9] p-2">
+              <button className="bg-[#FCEEE9] border border-[#FADFD6] rounded-md ring-1 ring-[#FCEEE9] p-2">
                 <BsSearch className="text-[#e55527] text-[13px]" />
-              </div>
+              </button>
             </div>
           </div>
           {/* header middle end */}
           {/* header last start */}
           <div className="flex items-center gap-6">
-            <div className="bg-[#FCEEE9] border border-[#FADFD6] rounded-md ring-1 ring-[#FCEEE9] p-2 md:hidden">
+            <button className="bg-[#FCEEE9] border border-[#FADFD6] rounded-md ring-1 ring-[#FCEEE9] p-2 md:hidden">
               <BsSearch className="text-[#e55527] text-[13px]" />
-            </div>
-            <div className="bg-[#FCEEE9] border border-[#FADFD6] rounded-md ring-1 ring-[#FCEEE9] p-2 hidden md:block">
+            </button>
+            <button className="bg-[#FCEEE9] border border-[#FADFD6] rounded-md ring-1 ring-[#FCEEE9] p-2 hidden md:block">
               <BsSunFill className="text-[#e55527] text-[13px]" />
-            </div>
-            <div className="bg-[#FCEEE9] border border-[#FADFD6] rounded-md ring-1 ring-[#FCEEE9] p-2 hidden md:block">
+            </button>
+            <button className="bg-[#FCEEE9] border border-[#FADFD6] rounded-md ring-1 ring-[#FCEEE9] p-2 hidden md:block">
               <BsNintendoSwitch className="text-[#101010] text-[13px]" />
-            </div>
-            <div className="bg-[#E7E7E7] rounded-md p-2">
+            </button>
+            <button className="bg-[#E7E7E7] rounded-md p-2">
               <HiMenu className="text-[#101010] text-[13px]" />
-            </div>
+            </button>
           </div>
           {/* header last end */}
         </div>
