@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
           <div className="max-2xl:container">
             <LeftNav />
           </div>
-          <div className="md:pl-[70px]">{children}</div>
+          <div className="md:ml-[70px] bg-[#EEF0F2] rounded-xl">{children}</div>
         </div>
       </body>
     </html>
