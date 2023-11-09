@@ -6,7 +6,7 @@ import { HiMenu } from "react-icons/hi";
 const Header = () => {
   return (
     // header start
-    <header className="py-2.5 bg-white md:py-3 px-4 md:px-6">
+    <header className="py-2.5 bg-slate-300 md:py-3 px-4 md:px-6">
       <div className="max-2xl:container mx-auto">
         <div className="flex justify-between items-center">
           {/* header left start */}
@@ -24,7 +24,7 @@ const Header = () => {
           <div className="w-[390px] hidden md:block">
             <div className="border-2 border-[#F0F2F4] rounded-lg p-1 flex justify-between items-center">
               <input
-                className="border-none outline-none px-2.5 placeholder:text-[#101010] placeholder:text-xs"
+                className="border-none outline-none bg-transparent px-2.5 placeholder:text-[#101010] placeholder:text-xs"
                 type="text"
                 placeholder="Search Best Food"
               />
