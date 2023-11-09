@@ -12,7 +12,7 @@ const LeftNav = () => {
 
   const navLinks = [
     { link: "/", icon: <RiHome3Line /> },
-    { link: "/about", icon: <BsGrid /> },
+    { link: "/dashboard", icon: <BsGrid /> },
     { link: "/location", icon: <TbLocation /> },
     { link: "/play", icon: <LuPlaySquare /> },
     { link: "/menu", icon: <TbGridDots /> },
@@ -27,7 +27,7 @@ const LeftNav = () => {
             key={link}
             className={`${
               pathname === link
-                ? "bg-[#FDEEEA] border border-[#FBDFD7] ring ring-[#FDEEEA]"
+                ? "bg-[#FDEEEA] border border-[#FBDFD7] ring-1 ring-[#FDEEEA]"
                 : "bg-[#f3f3f3]"
             } rounded-md p-2`}
           >
