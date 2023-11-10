@@ -5,9 +5,9 @@ import ParagraphSize from "./ParagraphSize";
 
 const SettingBar = () => {
   return (
-    <div className="bg-white p-4 rounded-xl w-full max-w-[300px] border-2 hidden lg:block">
-      <div className="flex flex-col gap-5">
-        <div className="flex justify-between items-center">
+    <div className="bg-white p-4 rounded-xl w-full max-w-[300px] border-2 hidden xl:block">
+      <div className="flex flex-col gap-5 w-full">
+        <div className="flex justify-between items-center gap-10 w-full">
           <div className="flex items-center gap-4">
             <TbSquareRoundedLetterT className="text-[#E55527] text-2xl" />
             <h3 className="text-sm text-[#E55527]">Settings</h3>

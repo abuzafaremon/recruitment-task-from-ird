@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa6";
 
 const Content = () => {
   return (
-    <div className="bg-white px-3 md:px-11 py-4 md:py-11 rounded-xl">
+    <div className="bg-white grow px-3 md:px-11 py-4 md:py-11 rounded-xl">
       <div className="flex flex-col md:flex-row gap-10">
         {/* social links div start */}
         <div className="order-last md:order-first w-full lg:w-7 h-full md:h-[298px]">
@@ -30,8 +30,8 @@ const Content = () => {
         {/* content div start */}
         <div className="flex flex-col gap-6 md:gap-10 text-[#212121]">
           {/* first div  */}
-          <div className="flex flex-col md:flex-row gap-[30px]">
-            <div>
+          <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-5 xl:gap-[30px]">
+            <div className="w-full">
               <div className="flex flex-col gap-[30px]">
                 <h1 className="text-2xl md:text-[38px] font-bold">
                   Health benefits of an avocado
@@ -92,7 +92,7 @@ const Content = () => {
             </p>
           </div>
           {/* third div */}
-          <div className="flex flex-col items-center md:flex-row gap-6 md:gap-11 order-last">
+          <div className="flex flex-col items-center lg:flex-row gap-6 md:gap-11 order-last">
             <div className="w-full rounded-[30px] overflow-hidden">
               <Image
                 className="w-full"

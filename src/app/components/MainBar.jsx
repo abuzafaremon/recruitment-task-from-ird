@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { BsSearch } from "react-icons/bs";
 
-const MainBar = () => {
+const MainBar = ({ isOpenFruits }) => {
   // create mock data for mapping
   const fruitsList = [
     {
@@ -56,7 +56,13 @@ const MainBar = () => {
     },
   ];
   return (
-    <div className="bg-white p-4 rounded-xl w-full max-w-[300px]">
+    <div
+      className={`bg-white p-4 rounded-xl w-full absolute xl:relative ${
+        isOpenFruits
+          ? "left-0 max-w-[80%] transition-all"
+          : "-left-96 max-w-[300px]"
+      } xl:left-0`}
+    >
       <div className="flex flex-col gap-[15px]">
         {/* tab div start */}
         <div className="p-1 border-2 border-[#FBE5DF] rounded-lg flex items-center">
