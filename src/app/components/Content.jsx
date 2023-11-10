@@ -7,8 +7,8 @@ import { FaStar } from "react-icons/fa6";
 
 const Content = () => {
   return (
-    <div className="bg-white grow px-3 md:px-11 py-4 md:py-11 rounded-xl">
-      <div className="flex flex-col md:flex-row gap-10">
+    <div className="bg-white grow px-3 lg:px-6 2xl:px-11 py-4 lg:py-6 2xl:py-11 rounded-xl">
+      <div className="flex flex-col md:flex-row gap-10 md:gap-5 lg:gap-7 2xl:gap-10s">
         {/* social links div start */}
         <div className="order-last md:order-first w-full lg:w-7 h-full md:h-[298px]">
           <div className="h-full flex md:flex-col md:justify-center gap-7">
