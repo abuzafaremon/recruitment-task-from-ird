@@ -5,7 +5,7 @@ import ParagraphSize from "./ParagraphSize";
 
 const SettingBar = () => {
   return (
-    <div className="bg-white p-4 rounded-xl w-full border-2">
+    <div className="bg-white p-4 rounded-xl w-full max-w-[300px] border-2 hidden lg:block">
       <div className="flex flex-col gap-5">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-4">

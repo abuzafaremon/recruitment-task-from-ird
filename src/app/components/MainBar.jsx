@@ -56,7 +56,7 @@ const MainBar = () => {
     },
   ];
   return (
-    <div className="bg-white p-4 rounded-xl w-full">
+    <div className="bg-white p-4 rounded-xl w-full max-w-[300px]">
       <div className="flex flex-col gap-[15px]">
         {/* tab div start */}
         <div className="p-1 border-2 border-[#FBE5DF] rounded-lg flex items-center">
