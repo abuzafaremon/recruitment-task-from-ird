@@ -12,18 +12,33 @@ const Content = () => {
         {/* social links div start */}
         <div className="order-last md:order-first w-full lg:w-7 h-full md:h-[298px]">
           <div className="h-full flex md:flex-col md:justify-center gap-7">
-            <div className="w-7 h-7 rounded-full bg-[#1877F2] text-white flex justify-center items-center">
+            <a
+              href="https://"
+              target="_blank"
+              rel="noreferrer"
+              className="w-7 h-7 rounded-full bg-[#1877F2] text-white flex justify-center items-center"
+            >
               <FaFacebook />
-            </div>
-            <div className="w-7 h-7 rounded-full bg-[#2867B2] text-white flex justify-center items-center">
+            </a>
+            <a
+              href="https://"
+              target="_blank"
+              rel="noreferrer"
+              className="w-7 h-7 rounded-full bg-[#2867B2] text-white flex justify-center items-center"
+            >
               <FaLinkedinIn />
-            </div>
-            <div className="w-7 h-7 rounded-full bg-[#1DA1F2] text-white flex justify-center items-center">
+            </a>
+            <a
+              href="https://"
+              target="_blank"
+              rel="noreferrer"
+              className="w-7 h-7 rounded-full bg-[#1DA1F2] text-white flex justify-center items-center"
+            >
               <FaTwitter />
-            </div>
-            <div className="w-7 h-7 rounded-full bg-[#E55527] text-white flex justify-center items-center">
+            </a>
+            <button className="w-7 h-7 rounded-full bg-[#E55527] text-white flex justify-center items-center">
               <BsThreeDots />
-            </div>
+            </button>
           </div>
         </div>
         {/* social links div start */}

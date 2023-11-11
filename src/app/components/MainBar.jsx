@@ -102,8 +102,9 @@ const MainBar = ({ isOpenFruits }) => {
           <div className="flex flex-col gap-1.5">
             {fruitsList.map((fruit) => (
               // single fruit div
-              <div
+              <Link
                 key={fruit.id}
+                href="/"
                 className="flex items-center gap-4 px-2.5 py-2 border-2 border-transparent rounded-[10px] hover:border-[#E55527]"
               >
                 <div className="w-11 h-11 md:w-14 md:h-14">
@@ -118,7 +119,7 @@ const MainBar = ({ isOpenFruits }) => {
                   <h3 className="text-sm font-medium">{fruit.name}</h3>
                   <p className="text-xs">{fruit.vitamin}</p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

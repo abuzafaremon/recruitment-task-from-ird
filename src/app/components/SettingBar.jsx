@@ -28,9 +28,9 @@ const SettingBar = () => {
           <p className="text-sm font-medium text-[#101010]">
             Turn Off Subtitle
           </p>
-          <div className="w-[34px] h-5 border-2 rounded-full p-0.5">
+          <button className="w-[34px] h-5 border-2 rounded-full p-0.5">
             <div className="w-1/2 h-full rounded-full bg-[#d9d9d9]"></div>
-          </div>
+          </button>
         </div>
       </div>
     </div>
