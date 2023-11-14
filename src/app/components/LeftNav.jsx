@@ -19,7 +19,7 @@ const LeftNav = () => {
   ];
 
   return (
-    <div className="w-full md:w-[70px] fixed md:absolute md:top-0 left-0 bottom-0 h-[56px] md:min-h-screen z-50 md:-z-10 bg-white">
+    <div className="w-full md:w-[70px] fixed md:absolute md:top-0 left-0 bottom-0 h-[56px] md:min-h-screen bg-white">
       <div className="h-full md:h-screen md:max-h-[830px] flex md:flex-col justify-center items-center gap-9">
         {navLinks.map(({ link, icon }) => (
           <Link

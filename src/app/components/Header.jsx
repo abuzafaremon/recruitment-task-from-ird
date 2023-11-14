@@ -6,7 +6,7 @@ import { HiMenu } from "react-icons/hi";
 const Header = () => {
   return (
     // header start
-    <header className="py-2.5 bg-white md:py-3 px-4 md:px-6">
+    <header className="py-2.5 bg-white md:py-3 px-4 md:px-6 relative z-50">
       <div className="max-2xl:container mx-auto">
         <div className="flex justify-between items-center">
           {/* header left start */}
